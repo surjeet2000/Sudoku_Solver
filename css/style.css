@@ -1,0 +1,85 @@
+body {
+	text-align: center;
+	background-color: #E5E7E9;
+}
+
+h1 {
+	color: #0abb9c;
+	font-size: 4rem;
+	margin-bottom: 0;
+}
+
+.contact a {
+  color:  #0abb9c;
+}
+
+.contact svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin-right: 0.5rem;
+}
+
+.contact svg.svg-inline--fa:hover {
+  color: #fff!important;
+}
+
+table.content {
+	border-spacing: 0;
+	border: 4px solid #0abb9c;
+	border-collapse: collapse;
+	color: #686868;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+
+table tr:nth-child(3), table tr:nth-child(6) {
+	border-bottom: 3px solid #0abb9c;
+}
+
+table tr td:nth-child(3), table tr td:nth-child(6) {
+	border-right: 3px solid #0abb9c;
+}
+
+table tr td {
+	border-bottom: 2px dotted #0abb9c;
+	border-right: 2px dotted #0abb9c;
+	background-color: #fff;
+}
+
+.content td input {
+	width: 2.5rem;
+	height: 2.5rem;
+	text-align: center;
+	font-size: 2rem;
+	border: none;
+	outline-color: #0abb9c;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.content input:hover {
+	background-color: #f2e5ee;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.solveBtn {
+	margin-top: 1rem;
+}
+
+.solveBtn button {
+	font-size: 2rem;
+	border-radius: 0;
+	border: 2px solid #0abb9c;
+	cursor: pointer;
+	outline: none;
+	color: #0abb9c;
+}
+
+.solveBtn button:hover {
+	background-color: #0abb9c;
+	color: #fff;
+}
